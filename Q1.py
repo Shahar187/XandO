@@ -4,8 +4,8 @@
 
 import turtle
 
-def main():
 
+def main():
     changeCursorToPen()
     turtle.speed(0)
     drawBoard()
@@ -210,7 +210,7 @@ def statCheck(matrix , shape): #check if some of the players win the game
     countDiagonalL = 0
     countDiagonalR = 0
     j = 2
-    # check the horizontal and verticl shape location
+    # check the horizontal and vertical shape location
     for i in range(len(matrix)):
         if(matrix[i][i] == shape):
             countDiagonalL = countDiagonalL + 1
@@ -224,14 +224,7 @@ def statCheck(matrix , shape): #check if some of the players win the game
                 drawWinLine(i, i, 'DR')
                 return False
 
-
-
-
-
-
-
     return True
-
 
 
 main()
