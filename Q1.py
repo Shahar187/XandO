@@ -232,7 +232,7 @@ def statCheck(matrix , shape): #check if some of the players win the game
 
     return True
 
-
+def betterFunc :
 
 main()
 
