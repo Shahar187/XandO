@@ -4,8 +4,8 @@
 
 import turtle
 
-def main():
 
+def main():
     changeCursorToPen()
     turtle.speed(0)
     drawBoard()
@@ -232,7 +232,6 @@ def statCheck(matrix , shape): #check if some of the players win the game
 
     return True
 
-def betterFunc :
 
 main()
 
